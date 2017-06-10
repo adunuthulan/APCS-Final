@@ -1,0 +1,64 @@
+{
+    "input": [
+        {
+            "primaryKey": 27,
+            "name": "Pause"
+        },
+        {
+            "primaryKey": 119,
+            "name": "Forward"
+        },
+        {
+            "primaryKey": 115,
+            "name": "Back"
+        },
+        {
+            "primaryKey": 97,
+            "name": "Left"
+        },
+        {
+            "primaryKey": 100,
+            "name": "Right"
+        },
+        {
+            "primaryKey": 304,
+            "name": "Run"
+        },
+        {
+            "primaryKey": 32,
+            "name": "Jump"
+        },
+        {
+            "primaryKey": 113,
+            "name": "Swap"
+        },
+        {
+            "primaryKey": 114,
+            "name": "Restart"
+        }
+    ],
+    "axisList": [
+        {
+            "positive": {
+                "primaryKey": 100,
+                "name": "Right"
+            },
+            "negative": {
+                "primaryKey": 97,
+                "name": "Left"
+            },
+            "name": "Horizontal"
+        },
+        {
+            "positive": {
+                "primaryKey": 119,
+                "name": "Forward"
+            },
+            "negative": {
+                "primaryKey": 115,
+                "name": "Back"
+            },
+            "name": "Vertical"
+        }
+    ]
+}
